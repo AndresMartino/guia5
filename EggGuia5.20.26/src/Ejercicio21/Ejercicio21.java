@@ -25,6 +25,7 @@ public class Ejercicio21 {
             if(V[i]==b){
             pos=i;
             c++;
+            
             }
         }
         switch (c) {
@@ -35,7 +36,7 @@ public class Ejercicio21 {
                 System.out.println("El valor "+b+" se econontro en el vector en la posicion "+pos);
                 break;
             default:
-                System.out.println("El valor "+b+" se encontro en la posicion "+pos+" y esta repetid");
+                System.out.println("El valor "+b+" se encontro en la posicion "+pos+" y esta repetido");
                 break;
         }
          for (int i = 0; i < n; i++) {
