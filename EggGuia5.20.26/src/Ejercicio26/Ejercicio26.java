@@ -13,7 +13,7 @@ public class Ejercicio26 {
          inside(M10,M3);
     }
     public static void cargarMatrices(int[][] M,int[][] M3){
-    /*---------------me tomo el trabajo de cargar la bendita matriz --------------------*/
+    /*---------------me tomo el trabajo de cargar la bendita matriz para poder comprobar de antemano, o sino puedo definir valores aleatorios--------------------*/
      Scanner leer = new Scanner(System.in, "ISO-8859-1").useDelimiter("\n").useLocale(Locale.US);
     
     M[0][0]=1;M[0][1]=26; M[0][2]=36;M[0][3]=47; M[0][4]=5;M[0][5]=6; M[0][6]=72;M[0][7]=81; M[0][8]=95;M[0][9]=10;
