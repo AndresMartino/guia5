@@ -17,12 +17,15 @@ public class Ejericicio1 {
 
     public static void convertir(int m) {
         int d, h;
-        d = m / 60;
-        h = d / 24;
-        if (d < 24) {
-            System.out.println("El equivalente es de " + d + " horas");
+        /*hallo el equivalente en horas de los minutos*/
+        h = m / 60;
+        /*aca hallo el equivalente en dias, esto queda redondeado para abajo*/
+        d = h / 24;
+        /*pregunto si las horas son menores a 24 y muestro simplemente la cantidad de horas, si no muestro los dias y la resta entre las horas y el dia para sacar las horas que van en un dia*/
+        if (h < 24) {
+            System.out.println("El equivalente es de " + h + " horas");
         } else {
-            System.out.println("el equivalente es de " + h + " dias y " + (d - (h * 24)) + " horas");
+            System.out.println("el equivalente es de " + d + " dias y " + (h - (d * 24)) + " horas");
         }
 
     }
